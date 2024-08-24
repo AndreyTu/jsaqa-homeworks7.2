@@ -1,19 +1,24 @@
 {
   "name": "jsaqa-homeworks7.2",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint",
+    "prettier": "prettier"
   },
-  "author": "Andrey",
+  "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "@eslint/js": "^9.9.0",
-    "cypress": "^13.13.3",
-    "eslint": "^9.9.0",
-    "eslint-plugin-react": "^7.35.0",
-    "globals": "^15.9.0",
-    "prettier": "3.3.3"
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "eslint": "^8.57.0"
   }
 }
